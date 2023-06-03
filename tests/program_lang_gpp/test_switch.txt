@@ -1,0 +1,20 @@
+dim x as uint;
+load(x);
+
+switch(x) 
+case 1:
+    put(1);
+    break;
+case 2:
+    put(2);
+    break;
+case 3:
+    put(3);
+    break;
+case 4:
+    put(pow([1 2 3 4 5 6 7 8])); comment 8;
+    break;
+case 5:
+    put([1 2 3]);
+    break;
+end switch;

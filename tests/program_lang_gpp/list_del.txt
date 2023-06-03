@@ -1,0 +1,17 @@
+dim x as uint;
+dim count as uint;
+
+load(x);
+let count = 0;
+
+333 for i in (1 >> x + 1) 
+    if x % i == 0 then 12 else 13;
+:12  
+    let count = count + 1; 
+    put(i); 
+goto 13;
+:13 
+next 3
+
+:3 
+put(count);

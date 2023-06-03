@@ -1,0 +1,23 @@
+dim num as uint;
+
+load(num);
+
+dim res as uint;
+
+comment если введённое число ноль;
+if num == 0 then 4;
+
+let res = 0;
+
+:1
+if num != 0 then 2 else 3;
+:2 
+let num = num / 10;
+let res = res + 1;
+goto 1;
+:3 
+put(res);
+goto 5;
+:4 
+put(1);
+:5

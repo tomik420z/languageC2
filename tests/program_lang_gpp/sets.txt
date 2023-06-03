@@ -1,0 +1,8 @@
+dim v0 as _hash;
+dim h1 as _hash;
+dim v1 as uint;
+put(simdiff([123 44 10], [44 10 22]));
+
+load(h1);
+
+put(hash_add(h1), pow(h1));

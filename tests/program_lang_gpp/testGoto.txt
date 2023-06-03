@@ -1,0 +1,31 @@
+goto 123;
+dim var as uint;
+dim h as _hash;
+let y = x = ((100 % 10) + (((var))));
+:123
+if x > 0 then 123 else 34
+if x + y < z then 34 
+; 
+;
+raise; 
+comment 45678765432;
+
+load(v1,  
+         v4, 
+                v6);
+load(x);
+put(x);
+put(c+2);
+
+12 for v in ((x + 10) / 10 >> p) 
+       switch (x % 3) 
+       case 1:
+              put(x % 2); break;
+       case 2: 
+              put(x % 3); break;
+       case 3:       
+              put(x % 10); break;
+       end switch;
+next 3
+
+:3 put(10 * 10 / x, 10, 10, 10, 10);

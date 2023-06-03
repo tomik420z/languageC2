@@ -1,0 +1,6 @@
+push [12 12 12  5  2  544 ]
+item 2
+jmp 4
+push 1
+write
+end

@@ -1,0 +1,16 @@
+switch(c) 
+case 123:
+    break;
+    comment привет;
+    let x = x + 10;
+case 245:
+case 456:
+case 7864:
+    put(x + z);
+case 462:
+    let x = x + 10;
+    break;
+default:
+    put(x + u, z / 10);
+end switch;
+:131

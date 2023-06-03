@@ -1,0 +1,9 @@
+push 12
+pop x
+push 4
+pop z
+push x
+push z 
+>
+ji 3
+jmp 100

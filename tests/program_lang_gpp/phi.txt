@@ -1,0 +1,27 @@
+dim p as uint;
+dim res as uint;
+dim count as uint;
+
+load(p);
+
+let res = 0;
+comment raise;
+10 for j in (1>>p) 
+    let count = 0;
+    18 for i in (1>>p)  comment кол-во общих делитей;
+        if p % i == 0 then 2 else 3;
+        :2
+        if j % i == 0 then 4 else 3;
+        :4
+        let count = count+1;
+        :3
+    next 18
+    :5
+    comment если кол-во общих делителей равно 1;
+    if count == 1 then 7 else 8;
+    :7
+    let res = res + 1;
+    :8
+next 10
+
+put(res);

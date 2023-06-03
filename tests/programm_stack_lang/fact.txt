@@ -1,0 +1,26 @@
+read 
+pop p
+push 1
+pop res
+jmp 13
+push res
+push i
+*
+pop v0
+push v0
+pop res
+jmp 15
+push 1
+pop i
+push i
+push 1
++
+pop i
+push i
+push p
+<
+ji 6
+jmp 24
+push res
+write 
+

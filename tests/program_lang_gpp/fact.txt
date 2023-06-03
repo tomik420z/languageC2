@@ -1,0 +1,14 @@
+dim p as uint;
+dim q as uint;
+let q = ( ( ( ( ( 6 ) ) ) ) ) + 1 + 2 + ( 3 + 4 * 1 - ( 8 + 4 ) ) ;
+put(q);
+raise;
+
+load(p);
+dim res as uint;
+let res = 1;
+123 for i in (1 >> p)  
+    let res = res * i ;
+next 12 
+:12 
+put(res);

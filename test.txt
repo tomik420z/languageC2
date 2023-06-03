@@ -1,0 +1,70 @@
+read 
+pop p
+push 0
+pop res
+jmp 57
+push 0
+pop count
+jmp 34
+push p
+push i
+%
+pop v0
+push v0
+push 0
+=
+ji 18
+jmp 33
+push j
+push i
+%
+pop v1
+push v1
+push 0
+=
+ji 27
+jmp 33
+push count
+push 1
++
+pop v2
+push v2
+pop count
+jmp 37
+push 1
+pop i
+jmp 9
+push i
+push 1
++
+pop i
+push i
+push p
+<
+ji 9
+push count
+push 1
+=
+ji 50
+jmp 56
+push res
+push 1
++
+pop v3
+push v3
+pop res
+jmp 60
+push 1
+pop j
+jmp 6
+push j
+push 1
++
+pop j
+push j
+push p
+<
+ji 6
+push res
+write 
+

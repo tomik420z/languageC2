@@ -1,0 +1,13 @@
+read
+pop x
+read 
+pop y
+read 
+pop z
+push x 
+write 
+push y 
+write
+push z 
+write
+end
