@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
             auto li_atom = syntax2.get_atoms();
             li_atom.match_labels();
             buff << li_atom << std::endl;
-            std::cout << "create file for stack language: test.txt" << std::endl;
+            std::cout << "created file for stack language: test.txt" << std::endl;
         }
         else {
             PrintErrors();
